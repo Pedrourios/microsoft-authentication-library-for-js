@@ -2,6 +2,53 @@
   "name": "@azure/msal-common",
   "entries": [
     {
+      "date": "Fri, 15 Sep 2023 22:13:51 GMT",
+      "version": "14.1.0",
+      "tag": "@azure/msal-common_v14.1.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "a9af309d6ead067c79e221a49eb804758c613655",
+            "comment": "Add missing queue measurement instrumentation #6480"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "ae92c9a9fefcdc98b3bff206d66c9bc4db1db76c",
+            "comment": "Refactor ClientConfigurationError #6471"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "5f19f7f29e8eeac7c53030598c1bf6fc7a96c615",
+            "comment": "Refactor InteractionRequiredAuthError #6472"
+          },
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "19eed25a69afd6d57caad4230cff9d333f91d309",
+            "comment": "Do not add v2.0 to authority endpoint if already exists #6457"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "4d75b093973b1c0b01feb4601f07d10390d44dd2",
+            "comment": "Refactor ClientAuthError for reduced size #6433"
+          }
+        ],
+        "minor": [
+          {
+            "author": "rginsburg@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "3f74c7263ffb405a3183186640945337fbf5cfd4",
+            "comment": "Modified proactive refresh in silent-flow to also return the cached token when the token needs to be refreshed #6397"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 05 Sep 2023 22:13:47 GMT",
       "version": "14.0.3",
       "tag": "@azure/msal-common_v14.0.3",

@@ -1,8 +1,28 @@
 # Change Log - @azure/msal-browser
 
-This log was last generated on Tue, 05 Sep 2023 22:13:47 GMT and should not be manually modified.
+This log was last generated on Fri, 15 Sep 2023 22:13:51 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 3.2.0
+
+Fri, 15 Sep 2023 22:13:51 GMT
+
+### Minor changes
+
+- Refactor BrowserConfigurationAuthError #6473 (thomas.norling@microsoft.com)
+- Modified proactive refresh in silent-flow to also return the cached token when the token needs to be refreshed #6397. (rginsburg@microsoft.com)
+- Bump @azure/msal-common to v14.1.0
+
+### Patches
+
+- Add missing queue measurement instrumentation #6480 (kshabelko@microsoft.com)
+- Refactor ClientConfigurationError #6471 (thomas.norling@microsoft.com)
+- Refactor InteractionRequiredAuthError #6472 (thomas.norling@microsoft.com)
+- Update telemetry measurements to use invoke #6484 (thomas.norling@microsoft.com)
+- Fix monitorIframeForHash telemetry event name (thomas.norling@microsoft.com)
+- Refactor ClientAuthError for reduced size #6433 (thomas.norling@microsoft.com)
+- doc: JSDoc for deprecated BrowserAuthErrorMessage (renaud.aste@ocea-sb.com)
 
 ## 3.1.0
 

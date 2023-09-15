@@ -2,6 +2,77 @@
   "name": "@azure/msal-browser",
   "entries": [
     {
+      "date": "Fri, 15 Sep 2023 22:13:51 GMT",
+      "version": "3.2.0",
+      "tag": "@azure/msal-browser_v3.2.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "a9af309d6ead067c79e221a49eb804758c613655",
+            "comment": "Add missing queue measurement instrumentation #6480"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "ae92c9a9fefcdc98b3bff206d66c9bc4db1db76c",
+            "comment": "Refactor ClientConfigurationError #6471"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "5f19f7f29e8eeac7c53030598c1bf6fc7a96c615",
+            "comment": "Refactor InteractionRequiredAuthError #6472"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "764d246483a4ef9712d5d32832cf1ed8ea23cd87",
+            "comment": "Update telemetry measurements to use invoke #6484"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "32d7a1ac2e0627d41454f9721e329548cf1b5896",
+            "comment": "Fix monitorIframeForHash telemetry event name"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "4d75b093973b1c0b01feb4601f07d10390d44dd2",
+            "comment": "Refactor ClientAuthError for reduced size #6433"
+          },
+          {
+            "author": "renaud.aste@ocea-sb.com",
+            "package": "@azure/msal-browser",
+            "commit": "558d60032123fd9aaf61a5fc4303032d839293f3",
+            "comment": "doc: JSDoc for deprecated BrowserAuthErrorMessage"
+          }
+        ],
+        "minor": [
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "6eaf83f4abff2e6f89bd952c27fea7d6d0d9099a",
+            "comment": "Refactor BrowserConfigurationAuthError #6473"
+          },
+          {
+            "author": "rginsburg@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "3f74c7263ffb405a3183186640945337fbf5cfd4",
+            "comment": "Modified proactive refresh in silent-flow to also return the cached token when the token needs to be refreshed #6397."
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-browser",
+            "comment": "Bump @azure/msal-common to v14.1.0",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 05 Sep 2023 22:13:47 GMT",
       "version": "3.1.0",
       "tag": "@azure/msal-browser_v3.1.0",
